@@ -2,5 +2,6 @@
 setup.cfg
 setup.py
 convertify/__init__.py
+convertify/command_line.py
 convertify/convertify.py
 convertify/test.py
