@@ -12,7 +12,7 @@ php3 install convertify
 ```python
 convertify --source=/path/to/your/images/
 ```
-Converted images will be saved one path behind the source, in a directory named "converted-images". You can change destination path by specifyind the path via --destination=<your-destination-path>
+Converted images will be saved one path behind the source, in a directory named "converted-images". You can change destination path by specifyind the path via ```--destination=<your-destination-path>```
 
 ## Default Options:
 source = <given-path>
