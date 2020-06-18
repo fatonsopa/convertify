@@ -16,8 +16,7 @@ Converted images will be saved one path behind the source, in a directory named 
 
 ```python
 from convertify import Convertify
-convertify = Convertify()
-convertify.convert('<your-path-goes-here>')
+Convertify.convert('<your-path-goes-here>')
 ```
 
 ## Default Options:
@@ -34,8 +33,7 @@ convertify --source=/path/to/your/images/ --destination=/path/to/your/destinatio
 
 ```python
 from convertify import Convertify
-convertify = Convertify()
-convertify.convert(source_path='<your-source-path-goes-here>',
+Convertify.convert(source_path='<your-source-path-goes-here>',
           destination_path='<your-destination-path-goes-here>',
           from_type=None,
           to_type='webp',
