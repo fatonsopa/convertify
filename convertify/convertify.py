@@ -6,6 +6,7 @@ import os
 
 class Convertify:
 
+    @classmethod
     def get_images(self, path, from_type=None,recursive=True):
         files = []
         if from_type is not None:
@@ -17,6 +18,7 @@ class Convertify:
 
         return files
 
+    @classmethod
     def convert(self, source_path=None, destination_path=None, from_type=None, to_type="webp", recursive=True):
         if source_path is None:
             raise Exception("No source path provided")
@@ -57,7 +59,7 @@ class Convertify:
         print('All images converted!')
 
     # Print iterations progress
-    def progress_bar(self, iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█', print_end="\r"):
+    def progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█', print_end="\r"):
         """
         Call in a loop to create terminal progress bar
         @params:

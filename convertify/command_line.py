@@ -14,8 +14,7 @@ ap.add_argument("--r",  help="Run the script recursively", default=True, type=bo
 args = vars(ap.parse_args())
 
 def main():
-    convert = Convertify()
-    convert.convert(source_path=args['source'],
+    Convertify.convert(source_path=args['source'],
               destination_path=args['destination'],
               from_type=args['from'],
               to_type=args['to'],
