@@ -1,2 +1,2 @@
 from convertify import Convertify
-convert = Convertify()
+Convertify.convert('/Users/faton/Documents/python/example-images')
