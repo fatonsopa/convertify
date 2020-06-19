@@ -50,7 +50,7 @@ class Convertify:
             os.makedirs(os.path.dirname(destination_file), exist_ok=True)
 
             # convert image
-            image = Image.open(image_path).convert('RGB')
+            image = Image.open(image_path).convert('RGBA')
             image.save(os.path.splitext(destination_dir)[0]+'.'+to_type, to_type)
 
             i += 1
