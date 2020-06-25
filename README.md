@@ -5,7 +5,7 @@ This is a package that converts images to a specified format. It searches recurs
 
 # Install
 ```python
-php3 install convertify
+pip3 install convertify
 ```
 
 # Basic usage
